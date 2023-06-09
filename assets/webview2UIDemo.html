@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>WebView2 UI Demo</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;0,600;0,800;1,800&display=swap');
+
+        body {
+            background-color: #0000;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            height: 50px;
+            background-color: #123;
+            padding: 10px 30px;
+            align-items: center;
+        }
+
+        .navbar-menu {
+            display: flex;
+            padding: 0 30px;
+        }
+
+        .title {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+            font-size: 28pt;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="title">WebView2 UI Demo</span>
+    </div>
+    <div class="main">
+        <video width="400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+</body>
+</html>
